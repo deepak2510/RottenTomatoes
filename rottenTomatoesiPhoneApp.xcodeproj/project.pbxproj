@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F453E1719D52024009C9A73 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F453E1619D52024009C9A73 /* MovieDetailViewController.swift */; };
+		4F61422D19D3E7FA0084FBC2 /* customCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F61422C19D3E7FA0084FBC2 /* customCellTableViewCell.swift */; };
 		4FB4196019D29170009D7732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4195F19D29170009D7732 /* AppDelegate.swift */; };
 		4FB4196219D29170009D7732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4196119D29170009D7732 /* ViewController.swift */; };
 		4FB4196519D29170009D7732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4196319D29170009D7732 /* Main.storyboard */; };
 		4FB4196719D29170009D7732 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4196619D29170009D7732 /* Images.xcassets */; };
 		4FB4196A19D29170009D7732 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4196819D29170009D7732 /* LaunchScreen.xib */; };
 		4FB4197619D29170009D7732 /* rottenTomatoesiPhoneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4197519D29170009D7732 /* rottenTomatoesiPhoneAppTests.swift */; };
+		4FB4198019D29A88009D7732 /* MovieListFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4197F19D29A88009D7732 /* MovieListFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F453E1519D51C5A009C9A73 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		4F453E1619D52024009C9A73 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		4F61422C19D3E7FA0084FBC2 /* customCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCellTableViewCell.swift; sourceTree = "<group>"; };
 		4FB4195A19D29170009D7732 /* rottenTomatoesiPhoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rottenTomatoesiPhoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB4195E19D29170009D7732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB4195F19D29170009D7732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,7 @@
 		4FB4196F19D29170009D7732 /* rottenTomatoesiPhoneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rottenTomatoesiPhoneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB4197419D29170009D7732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB4197519D29170009D7732 /* rottenTomatoesiPhoneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rottenTomatoesiPhoneAppTests.swift; sourceTree = "<group>"; };
+		4FB4197F19D29A88009D7732 /* MovieListFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +86,11 @@
 			children = (
 				4FB4195F19D29170009D7732 /* AppDelegate.swift */,
 				4FB4196119D29170009D7732 /* ViewController.swift */,
+				4F453E1519D51C5A009C9A73 /* MyPlayground.playground */,
 				4FB4196319D29170009D7732 /* Main.storyboard */,
+				4F453E1619D52024009C9A73 /* MovieDetailViewController.swift */,
+				4F61422C19D3E7FA0084FBC2 /* customCellTableViewCell.swift */,
+				4FB4197F19D29A88009D7732 /* MovieListFetcher.swift */,
 				4FB4196619D29170009D7732 /* Images.xcassets */,
 				4FB4196819D29170009D7732 /* LaunchScreen.xib */,
 				4FB4195D19D29170009D7732 /* Supporting Files */,
@@ -213,7 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FB4196219D29170009D7732 /* ViewController.swift in Sources */,
+				4F453E1719D52024009C9A73 /* MovieDetailViewController.swift in Sources */,
 				4FB4196019D29170009D7732 /* AppDelegate.swift in Sources */,
+				4F61422D19D3E7FA0084FBC2 /* customCellTableViewCell.swift in Sources */,
+				4FB4198019D29A88009D7732 /* MovieListFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +419,7 @@
 				4FB4197B19D29170009D7732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FB4197C19D29170009D7732 /* Build configuration list for PBXNativeTarget "rottenTomatoesiPhoneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				4FB4197E19D29170009D7732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
