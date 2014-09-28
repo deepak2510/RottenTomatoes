@@ -1,11 +1,16 @@
 RottenTomatoes
 ==============
 
+GIF
+----
+https://github.com/deepak2510/RottenTomatoes/blob/master/rottemTomatoes.gif
+
 How many hours did it take to complete?
+--
 -> 10+
 
 Which required and optional stories have you completed?
-
+-------
 [DONE]User can view a list of movies from Rotten Tomatoes. Poster images must be loading asynchronously.
 
 [DONE]User can view movie details by tapping on a cell
